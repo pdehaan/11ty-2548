@@ -1,0 +1,8 @@
+eleventy.generator = {{ eleventy.generator }}
+eleventy.version = {{ eleventy.version }}
+
+title = {{ title | inspect }}
+url = <a href="{{ page.url }}">{{ title | inspect }}</a>
+
+<a href="/">Home</a>
+<a href="/about/">About</a>
